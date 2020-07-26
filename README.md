@@ -10,30 +10,30 @@
 
 ### 使い方
 1. git clone で自分のマシン上にコピーする。
-2. CLIでディレクトリを開き、
-    `$ docker-compose up -d`
-    `$ docker exec -it node_lts bash`
-    ※ローカルのマシンにnodeがインストールされてなければnpmはコンテナ内で行ってください。
-    `$ npm install`
-    ※ node_moduleはgithubにはあげない用にしてるので各自npm installで生成してください。
+2. CLIでディレクトリを開き、<br/>
+    `$ docker-compose up -d`<br/>
+    `$ docker exec -it node_lts bash`<br/>
+    ※ローカルのマシンにnodeがインストールされてなければnpmはコンテナ内で行ってください。<br/>
+    `$ npm install`<br/>
+    ※ node_moduleはgithubにはあげない用にしてるので各自npm installで生成してください。<br/>
 3. 格ディレクトリを好きなように編集する。
 
 ### npm格コマンド
-ディレクトリを初期化し、package.jsonを生成
-`$ npm init -y`
-webpackのインストール
-`$ npm install webpack webpack-cli`
-ビルドの実行(詳しくはpakcage.json及びwebpack.config.js)
-`$ npm run build`
+ディレクトリを初期化し、package.jsonを生成<br/>
+`$ npm init -y`<br/>
+webpackのインストール<br/>
+`$ npm install webpack webpack-cli`<br/>
+ビルドの実行(詳しくはpakcage.json及びwebpack.config.js)<br/>
+`$ npm run build`<br/>
 
 ### package.jsonの補足
 
 #### devDependenciesとdependenciesの違い
 
 - devDependencies
-開発時に必要なモジュール
+開発時に必要なモジュール<br/>
 - dependencies
-実行時に必要なモジュール
+実行時に必要なモジュール<br/>
 
-### getting-stared-webpack
-400円と600円の品物を買った時の税込み金額をhtmlのbody内に表示する。
+### /getting-stared-webpack
+400円と600円の品物を買った時の税込み金額をhtmlのbody内に表示する。<br/>
