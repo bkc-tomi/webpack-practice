@@ -37,3 +37,11 @@ webpackのインストール
 
 ### getting-stared-webpack
 400円と600円の品物を買った時の税込み金額をhtmlのbody内に表示する。
+### using-babel-loader
+JavaScriptのコンパイラbabelを使う。
+### using-sass-loader
+sass-loaderでsassをバンドルする。
+### using-url-loader
+url-loaderで小さい画像ファイルをバンドルする
+### using-file-loader
+file-loaderで小さい画像ファイルをバンドルする
