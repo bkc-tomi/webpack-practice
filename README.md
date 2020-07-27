@@ -35,18 +35,14 @@ webpackのインストール<br/>
 - dependencies
 実行時に必要なモジュール<br/>
 
-<<<<<<< HEAD
 ### getting-stared-webpack
-400円と600円の品物を買った時の税込み金額をhtmlのbody内に表示する。
-### using-babel-loader
-JavaScriptのコンパイラbabelを使う。
-### using-sass-loader
-sass-loaderでsassをバンドルする。
-### using-url-loader
-url-loaderで小さい画像ファイルをバンドルする
-### using-file-loader
-file-loaderで小さい画像ファイルをバンドルする
-=======
-### /getting-stared-webpack
 400円と600円の品物を買った時の税込み金額をhtmlのbody内に表示する。<br/>
->>>>>>> f46d2fdf8bc9dd81927fe22378922b08c09a8b35
+### using-babel-loader
+JavaScriptのコンパイラbabelを使う。<br/>
+### using-sass-loader
+sass-loaderでsassをバンドルする。<br/>
+### using-url-loader
+url-loaderで小さい画像ファイルをバンドルする。<br/>
+### using-file-loader
+file-loaderで小さい画像ファイルをバンドルする。<br/>
+
