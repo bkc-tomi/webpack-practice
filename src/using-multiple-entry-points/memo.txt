@@ -1,0 +1,33 @@
+いずれかの方法でwatchモードを有効にし、ファイルを監視して変更が会ったらビルドを再実行してくれる設定にできます。
+
+
+webpack.config.js
+    module.exports = {
+        watch: true,          ...*
+        mode: "development",
+        entry: {
+            app: "./src/js/app.js",
+            search: "./src/js/search.js"
+        },
+        output: {
+            filename: "[name].bundle.js",
+            path: path.resolve(__dirname, "public/js")
+        }
+    };
+
+package.json
+    {
+    "name": "using-multiple-entry-points",
+    "scripts": {
+        "build": "webpack --watch"
+    },
+    "devDependencies": {
+        "webpack": "^4.44.0",
+        "webpack-cli": "^3.3.12"
+    }
+    }
+
+コマンド実行時--watchオプションをつける
+webpack --watch
+npm run build --watch
+

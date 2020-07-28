@@ -44,5 +44,11 @@ sass-loaderでsassをバンドルする。<br/>
 ### using-url-loader
 url-loaderで小さい画像ファイルをバンドルする。<br/>
 ### using-file-loader
-file-loaderで小さい画像ファイルをバンドルする。<br/>
+file-loaderで大きい画像ファイルをバンドルする。<br/>
+### using-provider-plugin
+import文を使わなくてもモジュールを読み込めるようにする<br/>
+### using-webpack-bundle-analyzer
+バンドルに含まれるモジュールや、そのファイルサイズを確認できるプラグイン <br/>
+### using-multiple-entry-points
+複数のエントリポイントを設定する方法と変更ごとに自動ビルドするwatchモードの設定方法<br/>
 
