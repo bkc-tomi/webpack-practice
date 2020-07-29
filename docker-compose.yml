@@ -5,6 +5,8 @@ services:
     image: node:lts
     container_name: node_lts
     tty: true
+    ports:
+      - 9000:9000
     volumes:
       - ./src:/src
     working_dir: "/src"
