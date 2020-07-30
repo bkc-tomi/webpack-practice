@@ -12,6 +12,8 @@ module.exports = {
     },
     devServer: {
         open: true,
+        host: "0.0.0.0",         // dockerコンテナを使用する場合は必要
+        disableHostCheck: true,  // dockerコンテナを使用する場合は必要
         port: 9000,
         // ブラウザ起動時に./public/index.htmlが開かれる
         contentBase: "./public"
